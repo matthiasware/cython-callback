@@ -1,0 +1,7 @@
+cython callback:
+- execute python function from c++
+- pass pointer of double vector + pointer to double
+
+
+c++
+- function takes callback, additional value, pointer
