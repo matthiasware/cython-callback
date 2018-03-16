@@ -4,6 +4,8 @@
 #include <vector>
 #include "gradient_descent.h"
 
+// g++ -std=c++11 main.cpp gradient_descent.cpp
+
 // f(x,y) = x^2 + y^2
 // g(x,y) = [2x, 2y]
 void qp2d(const double* x, double& f, double* g)
